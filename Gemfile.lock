@@ -1,0 +1,39 @@
+PATH
+  remote: .
+  specs:
+    backport_dig (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.2.5)
+    hoe (3.14.2)
+      rake (>= 0.8, < 11.0)
+    rake (10.5.0)
+    rake-compiler (0.9.5)
+      rake
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.1)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  backport_dig!
+  hoe
+  rake-compiler
+  rspec (>= 3.0.0)
+
+BUNDLED WITH
+   1.11.2
