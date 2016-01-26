@@ -30,9 +30,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ['>= 2.0.0', '< 2.3.0']
   s.post_install_message = <<-EOS
 backport_dig is the backport of Hash#dig and Array#dig in Ruby 2.3.0 to older Ruby versions.
-
 The best way is to use Ruby 2.3.0 or later.
-
 Thanks.
   EOS
 
