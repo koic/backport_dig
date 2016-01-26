@@ -1,4 +1,4 @@
-# backport_dig
+# backport_dig [![Build Status](https://travis-ci.org/koic/backport_dig.svg)](https://travis-ci.org/koic/backport_dig)
 
 backport_dig is the backport of Hash#dig and Array#dig in Ruby 2.3.0 to older Ruby versions.
 
