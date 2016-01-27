@@ -55,6 +55,10 @@ require 'backport_dig'
 * Ruby Development Team
 * Pay homage to [ruby_dig](https://rubygems.org/gems/ruby_dig)
 
+## Get the original codes
+
+* [https://github.com/ruby/ruby/commit/2986268](https://github.com/ruby/ruby/commit/29862685c0acf3a40c6b1f9e8780cbbd86cba658#diff-24411fb2a634ee46e29925b04767d15e)
+
 ## Contributing
 
 1. Fork it
