@@ -64,7 +64,8 @@ backport_dig is released under the [MIT License](http://www.opensource.org/licen
 
 ### Get the original codes
 
-* [https://github.com/ruby/ruby/commit/2986268](https://github.com/ruby/ruby/commit/29862685c0acf3a40c6b1f9e8780cbbd86cba658#diff-24411fb2a634ee46e29925b04767d15e)
+* Hash#dig and Array#dig [https://github.com/ruby/ruby/commit/2986268](https://github.com/ruby/ruby/commit/29862685c0acf3a40c6b1f9e8780cbbd86cba658#diff-24411fb2a634ee46e29925b04767d15e)
+* OpenStruct#dig [https://github.com/ruby/ruby/commit/4825306](https://github.com/ruby/ruby/commit/482530680c18ea2e44c3300c6f323fabc3bd55f7#diff-f0ac5119f74bfda273347c9925e910d7)
 
 ## Special Thanks
 

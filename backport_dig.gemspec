@@ -24,7 +24,8 @@ Gem::Specification.new do |s|
     'Rakefile',
     'ext/backport_dig/extconf.rb',
     'ext/backport_dig/backport_dig.c',
-    'lib/backport_dig.rb'
+    'lib/backport_dig.rb',
+    'lib/backport_dig/ostruct.rb'
   ]
 
   s.required_ruby_version = ['>= 2.0.0', '< 2.3.0']
