@@ -16,9 +16,11 @@ describe Array do
 end
 
 describe OpenStruct do
-  let(:address) { OpenStruct.new('city' => "Anytown NC", 'zip' => 12345) }
-  let(:person)  { OpenStruct.new('name' => 'John Smith', 'address' => address) }
+  describe '#dig' do
+    let(:address) { OpenStruct.new('city' => "Anytown NC", 'zip' => 12345) }
+    let(:person)  { OpenStruct.new('name' => 'John Smith', 'address' => address) }
 
-  specify { expect(person.dig(:address, 'zip')).to eq 12345 }
-  specify { expect(person.dig(:business_address, 'zip')).to be_nil }
+    specify { expect(person.dig(:address, 'zip')).to eq 12345 }
+    specify { expect(person.dig(:business_address, 'zip')).to be_nil }
+  end
 end
