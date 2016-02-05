@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    backport_dig (0.0.1)
+    backport_dig (0.0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -16,7 +16,7 @@ GEM
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
       rspec-mocks (~> 3.4.0)
-    rspec-core (3.4.1)
+    rspec-core (3.4.2)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
       diff-lcs (>= 1.2.0, < 2.0)
