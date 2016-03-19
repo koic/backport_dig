@@ -10,7 +10,7 @@ GEM
     hoe (3.14.2)
       rake (>= 0.8, < 11.0)
     rake (10.5.0)
-    rake-compiler (0.9.6)
+    rake-compiler (0.9.7)
       rake
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
