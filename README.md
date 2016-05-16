@@ -1,8 +1,8 @@
 # backport_dig [![Build Status](https://travis-ci.org/koic/backport_dig.svg)](https://travis-ci.org/koic/backport_dig) [![Gem Version](https://badge.fury.io/rb/backport_dig.svg)](http://badge.fury.io/rb/backport_dig)
 
-backport_dig is the backport of Hash#dig, Array#dig and OpenStruct#dig in Ruby 2.3.0 to older Ruby versions.
+backport_dig is the backport of Hash#dig, Array#dig and OpenStruct#dig in Ruby 2.3 to older Ruby versions.
 
-The best way is to use Ruby 2.3.0 or later. Because you can use original dig methods and so on.
+The best way is to use Ruby 2.3 or later. Because you can use original dig methods and so on.
 
 ## Ruby 2.3 incompatible
 
