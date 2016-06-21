@@ -4,27 +4,7 @@ backport_dig is the backport of Hash#dig, Array#dig and OpenStruct#dig in Ruby 2
 
 The best way is to use Ruby 2.3 or later. Because you can use original dig methods and so on.
 
-## Ruby 2.3 incompatible
-
-* Struct#dig is not supported
-
-## Synopsis
-
-```ruby
-h = {foo: {bar: {baz: 1}}}
-h.dig(:foo, :bar, :baz) #=> 1
-
-a = [[1, [2, 3]]]
-a.dig(0, 1, 1) #=> 3
-```
-
-## Supported Versions
-
-* Ruby 2.0
-* Ruby 2.1
-* Ruby 2.2
-
-## INSTALL
+## Installation
 
 Add these lines to your application's Gemfile:
 
@@ -49,6 +29,26 @@ And require it as:
 ```
 require 'backport_dig'
 ```
+
+## Synopsis
+
+```ruby
+h = {foo: {bar: {baz: 1}}}
+h.dig(:foo, :bar, :baz) #=> 1
+
+a = [[1, [2, 3]]]
+a.dig(0, 1, 1) #=> 3
+```
+
+## Supported Versions
+
+* Ruby 2.0
+* Ruby 2.1
+* Ruby 2.2
+
+## Ruby 2.3 incompatible
+
+* Struct#dig is not supported
 
 ## Contributing
 
