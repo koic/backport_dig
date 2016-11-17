@@ -6,7 +6,7 @@ gemfile:
 rvm:
   - 2.0.0
   - 2.1.10
-  - 2.2.5
+  - 2.2.6
 script:
   - bundle exec rake compile
   - bundle exec rspec spec
