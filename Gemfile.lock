@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    backport_dig (0.0.2)
+    backport_dig (1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -36,4 +36,4 @@ DEPENDENCIES
   rspec (>= 3.0.0)
 
 BUNDLED WITH
-   1.13.6
+   1.14.6
